@@ -1,6 +1,5 @@
 import { redirect } from "next/navigation"
 import { SearchBox } from "@/features/search-users/search-box"
-import { useSession } from "next-auth/react"
 
 import { auth } from "@/lib/auth"
 import { LandingSection } from "@/components/marketing/landing"

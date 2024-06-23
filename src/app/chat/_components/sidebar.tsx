@@ -3,7 +3,7 @@ import { Separator } from "@/components/ui/separator"
 
 export const Sidebar = () => {
   return (
-    <div className="h-screen w-full bg-accent px-8 py-4">
+    <div className="min-h-screen w-full bg-accent px-8 py-4">
       <div className="flex flex-col">
         <Separator />
         <div className="my-4 flex flex-col">

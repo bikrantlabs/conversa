@@ -17,6 +17,7 @@ const userRoutes = app
           name: { contains: username },
         },
       })
+      console.log(`🔥 user.ts:20 ~ API - Sending response`, { users })
       return c.json(users, 200)
     }
   )
