@@ -4,7 +4,6 @@ import {
   Command,
   Copy,
   CreditCard,
-  Github,
   HelpCircle,
   Layout,
   Loader2,
@@ -18,6 +17,8 @@ import {
   SunMedium,
   Trash,
   User2,
+  UserCheck,
+  UserRoundPlus,
   X,
   XCircle,
 } from "lucide-react"
@@ -51,7 +52,8 @@ const icons = {
   user: User2,
   x: X,
   xCircle: XCircle,
-  github: Github,
+  userRoundPlus: UserRoundPlus,
+  userCheck: UserCheck,
 }
 
 export const Icons: IconsType = icons

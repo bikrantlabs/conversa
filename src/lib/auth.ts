@@ -109,6 +109,7 @@ export const {
       token.email = existingUser.email
       token.role = existingUser.role
       token.twoFactorEnabled = existingUser.twoFactorEnabled
+
       return token
     },
   },

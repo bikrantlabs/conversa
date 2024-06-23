@@ -1,18 +1,10 @@
 import { SiteConfig } from "@/types/site-config"
 
 export const siteConfig: SiteConfig = {
-  name: "Next Auth Starter",
+  name: "Conversa",
   author: "bikrantjung",
-  description:
-    "Next.js 14+ starter template with fully fetched authentication.",
-  keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Radix UI",
-    "shadcn/ui",
-    "next-auth",
-  ],
+  description: "A realtime chat app built with honojs and websockets",
+  keywords: ["Next.js", "next-auth", "web-sockets"],
   url: {
     base: process.env.NEXT_PUBLIC_APP_URL as string,
     author: "https://github.com/bikrantlabs",

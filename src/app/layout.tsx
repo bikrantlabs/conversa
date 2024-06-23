@@ -8,6 +8,7 @@ import { SessionProvider } from "next-auth/react"
 import { siteConfig } from "@/config/site"
 import { auth } from "@/lib/auth"
 import { Navbar } from "@/components/navbar"
+import { QueryProvider } from "@/components/providers"
 import { ThemeProvider } from "@/components/theme-provider"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -28,10 +29,9 @@ export default async function RootLayout({
     <SessionProvider session={session}>
       <html lang="en" suppressHydrationWarning>
         <body className={inter.className}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <Navbar />
-            {children}
-          </ThemeProvider>
+          {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
+          <QueryProvider>{children}</QueryProvider>
+          {/* </ThemeProvider> */}
         </body>
       </html>
     </SessionProvider>

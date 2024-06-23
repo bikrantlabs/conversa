@@ -20,12 +20,12 @@ export const authRotues = [
  *
  * We should not protect/block this route
  */
-export const apiAuthPrefix = "/api/auth"
+export const apiAuthPrefix = "/api"
 
 /**
  * The default redirect path after logging in
  */
-export const DEFAULT_LOGIN_REDIRECT = "/auth/server"
+export const DEFAULT_LOGIN_REDIRECT = "/chat"
 
 /**
  * The route for logging in user
